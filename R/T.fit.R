@@ -58,8 +58,8 @@ function (data, design = data$dis, step.method = "backward",
             paste.names <- function(a) {paste(names(a)[a], collapse="/")}
             match <- match(rownames(dis), rownames(influ))
             influ <-as.data.frame(apply(influ, 1, paste.names))
-            names(influ) <- rownames(dat)[i]
             influ.info <- cbind(influ.info, influ[match,])
+		colnames(influ.info)[ncol(influ.info)] <- name
         }
         result <- summary(reg)
         if (!is.null(result$fstatistic[1])) {
