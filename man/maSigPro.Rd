@@ -137,10 +137,10 @@ maSigPro(data, edesign, matrix = "AUTO", groups.vector = NULL,
   \item{step.alfa}{inputed significance level in stepwise regression}
   \item{influ.info }{data frame of genes containing influencial data}
 }
-\references{Conesa, A., Nueda M.J., Alberto Ferrer, A., Talón, T. 2005.
+\references{Conesa, A., Nueda M.J., Alberto Ferrer, A., Talon, T. 2005.
 maSigPro: a Method to Identify Significant Differential Expression Profiles in Time-Course Microarray Experiments.
  }
-\author{ Ana Conesa, aconesa@ivia.es; María José Nueda, mj.nueda@ua.es}
+\author{ Ana Conesa, aconesa@ivia.es; Maria Jose Nueda, mj.nueda@ua.es}
 \seealso{ \code{\link{make.design.matrix}}, \code{\link{p.vector}}, \code{\link{T.fit}}, \code{\link{get.siggenes}}, \code{\link{see.genes}}}
 \examples{
 

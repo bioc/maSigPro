@@ -19,7 +19,7 @@ function (data, design = data$dis, step.method = "backward",
         groups.vector = NULL
         edesign = NULL
     }
-    dis <<- as.data.frame(design)
+    dis <- as.data.frame(design)
     dat <- dat[, as.character(rownames(dis))]
     g <- (dim(dat)[1] - 1)
     n <- dim(dat)[2]

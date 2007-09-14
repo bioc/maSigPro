@@ -59,7 +59,7 @@ function (data, edesign = data$edesign, time.col = 1, repl.col = 2,
         }
         else if (is.na(all(dist(clusterdata) > 0)) || (cluster.method == 
             "kmeans" & any(is.na(clusterdata))) || (distance == 
-            "cor" & any(sd(t(clusterdata), na.rm = T) == 0))) {
+            "cor" & any(sd(t(clusterdata), na.rm = TRUE) == 0))) {
             if (!is.null(kdata)) {
                 clusterdata <- kdata
             }

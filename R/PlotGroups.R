@@ -8,8 +8,8 @@ function (data, edesign = NULL, time = edesign[, 1], groups = edesign[,
 {
     if (!is.vector(data)) {
         if (summary.mode == "representative") {
-            distances <- apply(as.matrix(dist(data, diag = T, 
-                upper = T)), 1, sum)
+            distances <- apply(as.matrix(dist(data, diag = TRUE, 
+                upper = TRUE)), 1, sum)
             representative <- names(distances)[distances == min(distances)]
             yy <- as.numeric(data[rownames(data) == representative, 
                 ])
