@@ -8,7 +8,7 @@
 
 \usage{maSigProUsersGuide()}
 \arguments{
-  \item{view}{logical, to specify if the document is opened using the default PDF document reader.
+  \item{view}{logical, to specify if the document is opened using the default PDF document reader.}
 }
 
 \details{
