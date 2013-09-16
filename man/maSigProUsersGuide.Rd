@@ -22,7 +22,8 @@ The PDF viewer can be changed using Sys.putenv(R_PDFVIEWER=).
 }
 
 \examples{
-maSigProUsersGuide(view=FALSE)
+# maSigProUsersGuide()
+# maSigProUsersGuide(view=FALSE)
 
 }
 \keyword{UsersGuide}
